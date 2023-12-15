@@ -1,0 +1,81 @@
+.profile-page{
+    background-color: white;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.profile-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+}
+.table-heading{
+    background-color: rgb(255, 255, 255);
+    color: blue;
+}
+.table-heading th{
+    color: rgb(62, 109, 240);
+}
+.profile-table-button{
+    background-color: transparent;
+    border: 0px;
+    text-decoration-line: underline;
+    font-weight: bold;
+    cursor: pointer;
+}
+.details{
+    width: 95%;
+    border: 1px solid #000000;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0px;
+}
+.add-new-post-button{
+    height: 50px;
+    cursor: pointer;
+    background-color: rgb(35, 131, 241);
+    color: white;
+    width: 100%;
+    border: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.profile-photo{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+.heading-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.edit-icon{
+    margin-left: -30px;
+    background-color: white;
+    height: 20px;
+    width: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.profile-heading{
+    font-weight: bold;
+    font-size: 20px;
+    align-self: flex-start;
+}
+@media (min-width: 768px){
+    .profile-container{
+        width: 40vw;
+        padding: 10px;
+    }
+}
