@@ -1,0 +1,28 @@
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(84, 84, 84);
+    color: white;
+}
+.nav-bar h4{
+    margin-left: 20px;
+    cursor: pointer;
+}
+.span-element{
+    color: red;
+    font-size: 20px;
+}
+.nav-elements{
+    display: flex;
+    flex-direction: row;
+}
+.nav-elements p{
+    margin-right: 20px;
+}
+.nav-elements :hover{
+    color: red;
+    cursor: pointer;
+}
