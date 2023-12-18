@@ -1,4 +1,3 @@
-import { isLabelWithInternallyDisabledControl } from "@testing-library/user-event/dist/utils";
 import "./index.css"
 import { IoPerson } from "react-icons/io5";
 import { LuFilter } from "react-icons/lu";
