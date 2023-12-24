@@ -1,0 +1,133 @@
+.profile-dashboard{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(36, 2, 90);
+    height: 120%;
+    background-size: cover;
+    overflow: auto;
+}
+.profile-button-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+}
+.profile-section-button{
+    margin: 10px 0px 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    cursor: pointer;
+    width: auto;
+    padding: 10px;
+    background-color: rgb(28, 28, 28);
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
+}
+.edit-delete-buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.edit-post-button{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+    width: auto;
+    height: 30px;
+    width: 70px;
+    background-color: rgb(64, 63, 63);
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 10px;
+    padding: 0px 5px 0px 5px;
+    color: white;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.delete-icon{
+    width: 24px;
+    height: 24px;
+    color: red;
+    cursor: pointer;
+}
+.button-icon{
+    margin-right: 10px;
+}
+.line{
+    width: 100%;
+    background-color: rgb(4, 127, 175);
+}
+.profile-post-word{
+    color: white;
+}
+.all-posts-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 95vw;
+}
+.profile-post-list-container{
+    list-style-type: none;
+    color: white;
+    width: 100vw;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.post-image{
+    width: 120px;
+    height: 150px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+.post-lists-item{
+    height: 150px;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 90vw;
+    margin-bottom: 20px;
+    border: 1px solid rgb(238, 238, 250);
+    border-width: 2px 0px 0px 1px;
+    background-image: linear-gradient(to bottom, rgb(69, 68, 68) 10%, rgb(37, 36, 36));
+
+}
+.post-heading{
+    font-size: 15px;
+    margin: 0px;
+    padding: 0px;
+}
+.store-code-value{
+    margin: 0px;
+    padding: 0px;
+    color: rgb(72, 145, 240);
+    margin-top: 10px;
+    font-weight: bold;
+}
+.website-word{
+    margin: 0px;
+    padding: 0px;
+    margin-top: 10px;
+}
+.edit-post-button-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}

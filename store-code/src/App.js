@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import ExploreTravelGuide from './components/explore-travel-guide';
 import Addnewpost from './components/addnewpost/index';
 import Profile from './components/profile/index';
+import ProfileDashboard from './components/profile-dashboard';
 import ExploreProductGuide from "./components/explore-product-guide/index"
 import Addtravelnewpost from "./components/add-travel-new-post/index";
 import Home from "./components/Home/index";
@@ -16,6 +17,7 @@ function App() {
     <Router>
         <Routes>
           <Route exact path="/" element={<Home />} />
+          <Route exact path='/profile-dashboard' element={<ProfileDashboard/>}/>
           <Route exact path='/add-travel-new-post' element={<Addtravelnewpost/>}/>
           <Route exact path="/addnewpost" element={<Addnewpost />} />
           <Route exact path="/profile" element={<Profile />} />
